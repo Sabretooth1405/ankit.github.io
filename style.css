@@ -201,3 +201,13 @@ footer {
     text-align: center;
     
 }
+.list{
+    display: block;
+}
+ul{
+    margin:30px;
+    
+}
+li{
+    margin: 30px;
+}
