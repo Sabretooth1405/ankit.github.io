@@ -162,9 +162,11 @@ column {
 }
 
 main {
+    display: flex;
     margin: 3px 0;
     background-color: antiquewhite;
     text-align: center;
+    justify-content: space-around;
 }
 
 .about {
@@ -193,4 +195,9 @@ img {
 
 footer {
     color: black;
+}
+.cred{
+    width: 500px;
+    text-align: center;
+    
 }
