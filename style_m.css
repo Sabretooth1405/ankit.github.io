@@ -256,4 +256,7 @@ footer p {
     .columns3 {
         display: block;
     }
+    .cp{
+        display:block;
+    }
 }
