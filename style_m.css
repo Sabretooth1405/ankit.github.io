@@ -226,3 +226,14 @@ footer p{
 .cp{
     margin-right: auto;
 }
+@media (max-width: 450px){
+    .columns1{
+        display: block;
+    }
+    .columns2{
+        display: block;
+    }
+    .columns3{
+        display: block;
+    }
+}
