@@ -128,49 +128,58 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-header{
+
+header {
     background: green;
-    color:orange;
-    
+    color: orange;
+
 
 }
-h1{
+
+h1 {
     font-size: 48px;
     margin: 0 auto;
     text-align: center;
     padding: 30px;
     border: 5px solid red;
 }
-body{
+
+body {
     background: black;
 }
-.columns1{
+
+.columns1 {
     display: flex;
-    align-items:center;
-    justify-content: space-around;    
+    align-items: center;
+    justify-content: space-around;
     border: 5px solid white;
 }
-.berserk{
-    display:block;
+
+.berserk {
+    display: block;
     border-right: 5px solid white;
     align-self: flex-end;
-    
+
 }
-.boruto{
-    display:block;
+
+.boruto {
+    display: block;
     border-right: 5px solid white;
-    
+
 }
-.ds{
-    display:block;
+
+.ds {
+    display: block;
     border-right: 5px solid white;
-    
-}   
-.naruto{
-    display:block;
-    border-right: 5px solid white;
-    
+
 }
+
+.naruto {
+    display: block;
+    border-right: 5px solid white;
+
+}
+
 img {
 
     border: 5px solid black;
@@ -178,62 +187,73 @@ img {
     width: 50%;
     margin-top: 2px;
     height: auto;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 }
-p{
+
+p {
     color: darkcyan;
     font-size: 21px;
     background: ivory;
     margin: 5px;
 }
-.columns2{
+
+.columns2 {
     display: flex;
-    align-items:center;
-    justify-content: space-around;    
+    align-items: center;
+    justify-content: space-around;
     border-bottom: 5px solid white;
 }
 
-.columns3{
+.columns3 {
     display: flex;
-    align-items:center;
-    justify-content: space-around; 
+    align-items: center;
+    justify-content: space-around;
     border-left: 5px solid white;
-    border-right: 5px solid white; 
-    border-bottom: 5px solid white; 
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
 }
-.sl{
-    align-self:flex-end;
+
+.sl {
+    align-self: flex-end;
 }
-.dn{
+
+.dn {
     border-right: 5px solid white;
     align-self: flex-end;
-}  
-.boxer{
+}
+
+.boxer {
     border-right: 5px solid white;
-    
-}  
-footer{
+
+}
+
+footer {
     display: flex;
     justify-content: end;
-    
+
 }
-footer p{
-    color:aliceblue;
+
+footer p {
+    color: aliceblue;
     background: none;
-   
+
 }
-.cp{
+
+.cp {
     margin-right: auto;
 }
-@media (max-width: 450px){
-    .columns1{
+
+@media (max-width: 800px) {
+    .columns1 {
         display: block;
     }
-    .columns2{
+
+    .columns2 {
         display: block;
     }
-    .columns3{
+
+    .columns3 {
         display: block;
     }
 }
